@@ -71,4 +71,4 @@ assignments = model.x.get_values().items()
 EPS = 1.e-6
 for (customer,factory),x in sorted(assignments):
     if x > EPS:
-        print("sending quantity %10s from factory %3s to customer %3s" % (x, factory, customer))
+        print("sending quantity %10s from factory %3s to customer %3s" % (x, factory, customer))v
